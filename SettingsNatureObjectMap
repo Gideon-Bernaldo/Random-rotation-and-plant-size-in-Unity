@@ -43,7 +43,7 @@ public class MapEditor : MonoBehaviour
         }
         catch
         {
-            Debug.LogWarning($"Деревья не найдены. Проверь, назначен ли тэг на объекты. Ваш тэг {tree.tagObject}");
+            Debug.LogWarning($"No trees were found. Check if the tag is assigned to objects. Your tag {tree.tagObject}");
         }
 
         if (tree.spawnedObjects.Count > 0)
